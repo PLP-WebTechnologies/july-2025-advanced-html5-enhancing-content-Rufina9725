@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Mental Health Awareness</title>
+</head>
+
+<body>
+<header>
+    <p>Welcome to our mental health awareness page. Here you’ll find important information, helpful resources, and ways to connect with us for support.</p>
+    <nav>
+     <p>Go to:</p>
+     <ul> <!-- list -->
+       <li><a href="#importance">Why Mental Health Matters</a></li>
+       <li><a href="#stats">Statistics</a></li>
+       <li><a href="#resources">Helpful Resources</a></li>
+       <li><a href="#media">Media</a></li>
+     </ul>
+    </nav>
+</header>
+<main>
+    <section id="importance">
+        <h2>Why Mental Health Matters</h2>
+        <p>Mental health is essential for overall well-being. Here are some key points:</p>
+        <ul>
+            <li>Mental health affects how we think, feel, and act.</li>
+            <li>Good mental health helps us cope with stress and build relationships.</li>
+            <li>Mental illnesses are common but treatable conditions.</li>
+            <li>Seeking help early improves recovery outcomes.</li>
+        </ul>
+    </section>
+
+    <!--table-->
+    <section id="stats">
+        <h2>Statistics on Mental Health</h2>
+        <p>Below are some mental health statistics:</p>
+        <table border="1" cellpadding="5" cellspacing="0">
+        <caption>Global Mental Health Facts</caption>
+        <thead>
+            <tr>
+                <th>Fact</th>
+                <th>Statistics</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>People affected by depression worldwide</td>
+                <td>Over 280 million</td>
+            </tr>
+            <tr>
+                <td>Percentage of people with anxiety disorders</td>
+                <td>3.6% of global population</td>
+            </tr>
+            <tr>
+                <td>Suicide is the leading cause of death among 15-29 year-olds</td>
+                <td>Approximately 700,000 per year</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <section id="resources">
+        <h2>Helpful Resources</h2>
+        <p>Here are some organizations and resources for mental health support:</p>
+        <ul>
+            <ol>
+                <li><a href="https://www.who.int/health-topics/mental-health" target="_blank" rel="noopener">World Health Organization (WHO) Mental Health</a></li>
+                <li><a href="https://www.nami.org/Home" target="_blank" rel="noopener">National Alliance on Mental Illness (NAMI)</a></li>
+                <li><a href="https://www.mentalhealth.gov/" target="_blank" rel="noopener">MentalHealth.gov</a></li>
+                <li><a href="https://www.samaritans.org/" target="_blank" rel="noopener">Samaritans Helpline</a></li>
+            </ol>
+    </section>
+
+    <section id="media">
+        <h2>Media</h2>
+        <p>Here are some organizations and resources for mental health support:</p>
+        <h3>Inspirational Image</h3>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Person standing peacefully in nature" width="600" height="400" />
+
+        <h3>Motivational Audio</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Informative Video</h3>
+        <video width="600" height="340" controls>
+            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" />
+            Your browser does not support the video tag.
+        </video>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full Name: *</label><br>
+                <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" /><br>
+                <label for="email">Email: *</label><br>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required autocomplete="email" /><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Write your message here" rows="4" cols="30"></textarea><br>
+                <label for="birthdate">Date of Birth: *</label><br>
+                <input type="date" id="birthdate" name="birthdate" placeholder="Enter date of Birth" required autocomplete="Birthdate"  max="2025-12-31"/><br>
+                <label for="phone">Phone Number: *</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="+1234567890" pattern="^\+?\d{7,15}$" required autocomplete="tel"  title="Enter a valid phone number with country code"/><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Account Details</legend>
+                <label for="username">Username: *</label><br>
+                <input type="text" id="username" name="username" required minlength="5" maxlength="15" pattern="^[a-zA-Z0-9_]+$" title="Only letters, numbers, and underscores" autocomplete="username" /><br>
+                <label for="password">Password: *</label><br>
+                <input type="password" id="password" name="password" required minlength="8" autocomplete="new password" /><br>
+            </fieldset>
+            <button type="submit">Send</button>
+        
+        </form>
+  </section>
+</main>
+<footer>
+  <p>© 2025 Rufina's Mental Health Awareness Initiative</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+</body>
